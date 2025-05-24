@@ -33,11 +33,13 @@ const App = () => {
 
   return (
     <div
+      className="w-full h-screen flex flex-wrap justify-center items-center bg-gray-900">
+      {/* <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
         backgroundImage: `url(https://images.pexels.com/photos/5849577/pexels-photo-5849577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
       }}
-    >
+    ></div> */}
       <div className="w-full">
         <div className="w-full max-w-md mx-auto border border-gray-50 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
